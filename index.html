@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Main</title>
+    <style>
+        #home {
+            font-size: 20px;
+            color: white;
+        }
+
+        #pro {
+            font-size: 20px;
+            color: white;
+        }
+
+        #con {
+            font-size: 20px;
+            color: white;
+        }
+
+        #login {
+            font-size: 20px;
+        }
+
+        #head {
+            font-family: cursive;
+            color: red;
+        }
+
+        #as {
+            font-family: cursive;
+            color: white;
+            font-style: bold;
+        }
+
+        .social-icon {
+            height: 46px;
+            width: 46px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0.45rem;
+            color: #333;
+            border-radius: 50%;
+            border: 1px solid #333;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #4481eb;
+            border-color: #4481eb;
+        }
+
+        #last {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1 id="head">A&S HOMES</h1>
+        </center>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger mb-2 my-3 mx-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="as">A&S HOMES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="pro">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="con">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html" id="login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto col-6">
+        <center>
+            <h2>WELCOME to our Real Estate Website</h2>
+            <p>Find your dream home with us!</p>
+        </center>
+    </div>
+    <div class="row mb-2 my-5">
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">APPARTMENTS</strong>
+                    <h3 class="mb-0">3 BHK</h3>
+                    <p class="mb-auto">Location : Khandagiri</p>
+                    <p class="mb-auto">Price : Rs 50,00,000</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-outline-success" type="button" id="three">Details</button>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="./appartment.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">VILLA</strong>
+                    <h3 class="mb-0">4 BHK</h3>
+                    <p class="mb-auto">Location : Chandrasekharpur</p>
+                    <p class="mb-auto">Price : Rs 1,50,00,000</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-outline-success" type="button" id="four">Details</button>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="./villa.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">HOME</strong>
+                    <h3 class="mb-0">1 BHK</h3>
+                    <p class="mb-auto">Location : Patia</p>
+                    <p class="mb-auto">Price : Rs 20,00,000</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-outline-success" type="button" id="one">Details</button>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="./home1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">BUNGALOWS</strong>
+                    <h3 class="mb-0">5 BHK</h3>
+                    <p class="mb-auto">Location : Cuttack</p>
+                    <p class="mb-auto">Price : Rs 3,00,00,000</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-outline-success" type="button" id="five">Details</button>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="./home.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center>
+            <p id="last">
+                Follow Us On
+            </p>
+        </center>
+        <ul class="nav justify-content-center">
+            <li class="social-icon">
+                <a href="https://www.facebook.com/dhal.adarsh?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="social-icon">
+                <a href="https://instagram.com/akd__adarsh?igshid=YzAwZjE1ZTI0Zg=="><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="social-icon">
+                <a href="https://x.com/AdarshKumarDha3?t=vMk1pXd89DevjseJ6P01YQ&s=09"><i
+                        class="fa-brands fa-x-twitter"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById('three').addEventListener('click', function () {
+            Swal.fire({
+                html: "<p>3 Bedrooms<br>2 Bathrooms<br>1 Dinning Hall<br>Balcony<br>Contact : +917978123456"
+            });
+        })
+        document.getElementById('four').addEventListener('click', function () {
+            Swal.fire({
+                html: "<p>4 Bedrooms<br>Balcony<br>Spacious Hall<br>Parking<br>Fully Furnished Home<br>Kitchen<br>Contact : +917978123456"
+            });
+        })
+        document.getElementById('one').addEventListener('click', function () {
+            Swal.fire({
+                html: "<p>1 Bedrooms<br>Kitchen<br>Attached Bathroom<br>Contact : +917978123456"
+            });
+        })
+        document.getElementById('five').addEventListener('click', function () {
+            Swal.fire({
+                html: "<p>5 Luxury Bedrooms<br>4 Bathrooms<br>A servant room<br>Fully Furnished House<br>Swimming Pool <br>Special Parking<br>Contact : +917978123456"
+            });
+        })
+    </script>
+</body>
+
+</html>
